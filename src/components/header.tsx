@@ -51,6 +51,9 @@ export default function Header() {
                 </div>
             </div>
             </IsVisible>
+            <IsVisible>
+            <h1 className='text-center font-montserrat text-5xl font-semibold text-slate-800'>WELCOME TO THE ENVOYER UNIVERSE</h1>
+            </IsVisible>
         </header>
     )
 }

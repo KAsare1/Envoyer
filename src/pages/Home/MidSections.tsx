@@ -39,7 +39,7 @@ export default function MidSection(){
         <div className='md:flex md:ml-16 items-center'>
             <img src={towing} className='object-fill md:h-5/6 md:w-1/2 h-56 md:ml-0 ml-9 w-[250px] md:rounded-[48px]'></img>
             <div className='md:mx-32 mx-3'>
-            <p className='md:text-5xl md:h-48 font-bold font-montserrat md:mt-0 mt-10 text-slate-800'>Sit in comfort to your destination</p>
+            <p className='md:text-5xl md:h-48 font-bold font-montserrat md:mt-0 mt-10 text-slate-800'>Reliable Towing, Rapid Response</p>
             <button className="block py-2 px-3 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded-xl md:mx-32 font-montserrat">Order Your Ride</button>
             </div>
         </div>
@@ -90,7 +90,7 @@ export default function MidSection(){
             <section className='rounded-[12px] overflow-hidden md:ml-44 h-screen justify-center items-center w-9/12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 overflow-hidden md:gap-x-4 md:min-h-[560px] bg-[#8E2C2C]'>
                     <div className='flex flex-col justify-center pl-4 pr-4 pt-10 md:pt-8 md:pb-8 w-full mb-8 md:mb-0 md:pl-24 md:pr-0 md:rtl:pr-24 md:rtl:pl-0 '>
-                    <h2 className="text-white text-center text-4xl font-montserrat">Instant Requests, Timeless Rides.</h2>
+                    <h2 className="text-white text-center text-4xl font-montserrat">Instant Requests, Timeless Services.</h2>
                 <h2 className='text-white text-center text-2xl mt-8 font-montserrat'>Available on Android and iOS devices</h2>
                 <button className='rounded bg-white md:ml-0 ml-16 h-10 w-36 text-bold self-center mt-10 font-montserrat'>Get the app</button>
                     </div>
