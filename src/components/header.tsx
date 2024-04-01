@@ -1,5 +1,6 @@
 import truck from '../assets/truck.jpg'
 import { Link } from 'react-router-dom'
+import IsVisible from './fade_intoview'
 
 export default function Header() {
     return (
@@ -35,6 +36,7 @@ export default function Header() {
             </nav>
 
             {/* Header Image and Text */}
+            <IsVisible>
             <div className='relative w-full md:min-h-screen md:py-10 md:mb-40 md:mt-0 mt-7'>
                 <div className="h-full w-full object-cover p-0 object-center top-0 left-0 right-0 bottom-0 absolute inset-0">
                     {/* Background Image */}
@@ -48,6 +50,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+            </IsVisible>
         </header>
     )
 }

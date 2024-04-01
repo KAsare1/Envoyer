@@ -9,8 +9,8 @@ export default function Login(){
 
                 <div className="flex flex-col">
                     <label className="text-xl mb-2 font-montserrat">Enter your phone number or email</label>
-                    <input placeholder ='Enter phone number or email' className="border rounded text-center border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
-                    <input placeholder ='Enter password' className="mt-4 border rounded text-center border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
+                    <input placeholder ='Enter phone number or email' className="border border-opacity-20 rounded text-center border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
+                    <input placeholder ='Enter password' className="mt-4 border rounded text-center border-opacity-20 border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
                     <button className="bg-[#8E2C2C] rounded my-4 py-2 text-white font-montserrat">Continue</button>
                 </div>
                 <a className="font-montserrat text-sm mb-3" href='passwordreset'>Forgot password?</a>
