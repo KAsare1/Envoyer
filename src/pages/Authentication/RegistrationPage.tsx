@@ -1,8 +1,10 @@
 import redtruck from '../../assets/redtruck.jpg'
+import IsVisible from '../../components/fade_intoview'
 
 export default function CustomerRegisteration(){
     return(
         <>
+        <IsVisible>
            <div className="flex flex-col items-center justify-center px-6 mx-auto md:h-screen lg:py-0">
            <h1 className="font-bold text-4xl mb-5 font-montserrat">Join Envoyer, Unlock Your Shipping Potential</h1>
            
@@ -36,6 +38,7 @@ export default function CustomerRegisteration(){
                 </div>
 
             </div>
+            </IsVisible>
         </>
     )
 }
