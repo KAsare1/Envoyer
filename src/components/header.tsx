@@ -1,6 +1,7 @@
 import truck from '../assets/truck.jpg'
 import { Link } from 'react-router-dom'
 import IsVisible from './fade_intoview'
+import apple from '../assets/apple-logo.png'
 
 export default function Header() {
 
@@ -11,7 +12,7 @@ export default function Header() {
             <nav className="absolute bg-white opacity-96 z-10 border-gray-200 md:h-16 md:w-screen">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     {/* Navigation Links */}
-                    <div className="mr-28">
+                    <div className="">
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:border-gray-700">
                             <li><a href="#" className="block py-2 px-3 font-montserrat">Home</a></li>
                             <li><a href="#" className="block py-2 px-3 font-montserrat">About</a></li>
@@ -19,23 +20,30 @@ export default function Header() {
                             <li><a href="#" className="block py-2 px-3 font-montserrat">Contact Us</a></li>
                             <li><a href="#" className="block py-2 px-3 font-montserrat">Make New Request</a></li>
                             <li className="relative">
-                            <div className="dropdown">
-                                <button className="dropbtn block py-2 px-3">Support 
-                                    <i className="fa fa-caret-down"></i>
-                                    </button>
-                                    <div className="dropdown-content rounded-md">
-                                    <a href="#">FAQ</a>
-                                    <a href="#">Help</a>
-                                </div>
-                            </div> 
-                                
+                                <div className="dropdown">
+                                    <button className="dropbtn block py-2 px-3 font-medium my-auto">Support 
+                                        <i className="fa fa-caret-down"></i>
+                                        </button>
+                                        <div className="dropdown-content rounded-md">
+                                        <a href="#">FAQ</a>
+                                        <a href="#">Help</a>
+                                    </div>
+                                </div>                                 
+                            </li>
+                            <li>
+                            <select className="border border-opacity-20 rounded text-center border-neutral-700 block py-2 px-3 ml-20 font-montserrat">
+                                <option value='select your category' className="text-center py-2 px-3 font-montserrat">
+                                    English
+                                </option>
+                                <option value="volvo" className="text-center py-2 px-3 font-montserrat">French</option>
+                            </select>
                             </li>
                         </ul>
                         
                     </div>
 
                     {/* Sign Up and Login Links */}
-                    <div className="hidden w-full self-end md:block md:w-auto" id="navbar-default">
+                    <div className="hidden w-screen self-end md:block md:w-auto justify-self-end justify-items-end" id="navbar-default">
                         <div className="font-medium self-end flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                             <Link to={'login'}><a href="login" className="block py-2 px-3 font-bold mr-2 font-montserrat">Login</a></Link>
                             <Link to={'signup'}><a href="signup" className="block py-2 px-3 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded font-montserrat">Sign Up</a></Link>
