@@ -47,10 +47,10 @@ export default function MidSection(){
 
 
         <IsVisible>
-        <section className='container px-16'> 
-        <div className='my-32'>
-        <div className='grid gap-2 md:gap-4 grid-cols-1 md:grid-cols-3 md:mx-12 mr-24'>
-            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
+        <section className='justify-center items-center'> 
+        <div className='my-32 items-center justify-center'>
+        <div className='grid gap-2 md:gap-4 grid-cols-1 md:grid-cols-3 md:mx-12 mx-24 items-center justify-center self-center'>
+            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 self-center overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
                 <div className='relative z-10 w-full h-full'>
                     <div className='pb-14 md:pb-0 md:pr-26'>
                         <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-5 font-montserrat text-center'>Let Our Experts Lead The Way</h5>
@@ -59,7 +59,7 @@ export default function MidSection(){
                     </div>
                 </div>
             </div>
-            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
+            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 self-center overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
                 <div className='relative z-10 w-full h-full'>
                     <div className='pb-14 md:pb-0 md:pr-26'>
                         <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-5 font-montserrat text-center'>Boost Results With Real-Time Intel</h5>
@@ -67,7 +67,7 @@ export default function MidSection(){
                     </div>
                 </div>
             </div>
-            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
+            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 self-center overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
                 <div className='relative z-10 w-full h-full'>
                     <div className='pb-14 md:pb-0 md:pr-26'>
                         <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-5 font-montserrat'>Improve Operational Efficiency</h5>
@@ -84,9 +84,9 @@ export default function MidSection(){
         </IsVisible>
 
         <IsVisible>
-        <section className='container px-16'> 
-        <div className='my-32'>
-        <div className='items-center'><h1 className='md:text-5xl text-4xl md:text-center mb-5 font-montserrat font-bold text-slate-800'>Our Services</h1></div>
+        <section className='px-16 justify-center'> 
+        <div className='my-32 justify-center items-center'>
+        <div className='items-center'><h1 className='md:text-5xl text-4xl md:text-center mb-5 font-montserrat font-bold text-slate-800 text-center'>Our Services</h1></div>
         <div className='grid gap-2 md:gap-4 grid-cols-1 md:grid-cols-3 md:mx-12 mr-24'>
             <div role='button' className='bg-[#D9D9D9] overflow-hidden relative p-4 md:p-6 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
                 <div className='relative z-10 w-full h-full'>
@@ -126,9 +126,9 @@ export default function MidSection(){
 
 
 <IsVisible>
-        <div className='md:items-center md:text-center'><h1 className='md:text-5xl text-3xl md:mb-5 mr-36 mb-10 md:mr-12 text-center font-montserrat font-bold text-slate-800'>Download our apps</h1></div>
+        <div className='md:items-center md:text-center'><h1 className='md:text-5xl text-3xl md:mb-5 mr-36 md:mr-12 text-center font-montserrat font-bold text-slate-800'>Download our apps</h1></div>
             
-            <section className='rounded-[12px] overflow-hidden md:ml-44 h-screen justify-center items-center w-9/12'>
+            <section className='rounded-[12px] overflow-hidden md:ml-44 mb-20 justify-center items-center w-9/12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 overflow-hidden md:gap-x-4 md:min-h-[560px] bg-[#8E2C2C]'>
                     <div className='flex flex-col justify-center pl-4 pr-4 pt-10 md:pt-8 md:pb-8 w-full mb-8 md:mb-0 md:pl-24 md:pr-0 md:rtl:pr-24 md:rtl:pl-0 '>
                     <h2 className="text-white text-center text-4xl font-montserrat">Instant Requests, Timeless Services.</h2>

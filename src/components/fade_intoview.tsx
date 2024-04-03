@@ -24,7 +24,7 @@ const IsVisible: React.FC<IsVisibleProps> = ({ children }) => {
     };
   }, []);
 
-  const classes = `transition-opacity duration-1000 ${
+  const classes = `transition-opacity duration-1000 justify-center ${
     isVisible ? "opacity-100" : "opacity-0"
   }`;
 
