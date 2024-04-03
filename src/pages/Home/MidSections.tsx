@@ -45,6 +45,44 @@ export default function MidSection(){
         </div>
         </IsVisible>
 
+
+        <IsVisible>
+        <section className='container px-16'> 
+        <div className='my-32'>
+        <div className='grid gap-2 md:gap-4 grid-cols-1 md:grid-cols-3 md:mx-12 mr-24'>
+            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
+                <div className='relative z-10 w-full h-full'>
+                    <div className='pb-14 md:pb-0 md:pr-26'>
+                        <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-5 font-montserrat text-center'>Let Our Experts Lead The Way</h5>
+                        <span className='inline-block mt-0 text-base leading-6 font-normal font-montserrat mb-0 text-secondary max-md:!text-sm'>Our more than 70 years of transportation management experience combined with deep vertical knowledge means you can tap into industry-leading experts and processes to keep your business running smoothly with Envoyer freight.</span>
+
+                    </div>
+                </div>
+            </div>
+            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
+                <div className='relative z-10 w-full h-full'>
+                    <div className='pb-14 md:pb-0 md:pr-26'>
+                        <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-5 font-montserrat text-center'>Boost Results With Real-Time Intel</h5>
+                        <span className='inline-block mt-0 text-base leading-6 font-normal font-montserrat mb-0 text-secondary max-md:!text-sm'>Envoyer app's AI-optimized network is working for you 24/7, computing data across the shipper and carrier network to give you unparalleled visibility which means you can take actions to optimize your operations.</span>
+                    </div>
+                </div>
+            </div>
+            <div role='button' className='bg-[#D9D9D9] bg-opacity-50 overflow-hidden relative p-4 md:p-20 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
+                <div className='relative z-10 w-full h-full'>
+                    <div className='pb-14 md:pb-0 md:pr-26'>
+                        <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-5 font-montserrat'>Improve Operational Efficiency</h5>
+                        <span className='inline-block mt-0 text-base leading-6 font-normal font-montserrat mb-0 text-secondary max-md:!text-sm'>Easily handle capacity issues and uncover budget and time savings with our dynamic capacity solutions. From spot to contract needs, LTL to FTL and everything in between, we’ve got you covered.</span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        
+        </section>
+        </IsVisible>
+
         <IsVisible>
         <section className='container px-16'> 
         <div className='my-32'>
@@ -55,7 +93,7 @@ export default function MidSection(){
                     <div className='pb-14 md:pb-0 md:pr-26'>
                         <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-2 font-montserrat'>Trucking</h5>
                         <span className='inline-block mt-0 text-base leading-6 font-normal font-montserrat mb-0 text-secondary max-md:!text-sm'>Instant Requests, Timeless Rides</span>
-                        <img src={truck} className='absolute opacity-60 top-10 right-0 bottom-0 z-0 max-h-[130px] max-w-[130px] md:!max-h-[130px] md:!max-w-[130px]'></img>
+                        <img src={truck} className='opacity-60 mx-auto self-center justify-center max-h-[130px] max-w-[130px] md:!max-h-[130px] md:!max-w-[130px]'></img>
                     </div>
                 </div>
             </div>
@@ -64,7 +102,7 @@ export default function MidSection(){
                     <div className='pb-14 md:pb-0 md:pr-26'>
                         <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-2 font-montserrat'>Bus Hiring</h5>
                         <span className='inline-block mt-0 text-base leading-6 font-normal font-montserrat mb-0 text-secondary max-md:!text-sm'>Instant Requests, Timeless Rides</span>
-                        <img src={bus} className='absolute opacity-60 top-12 right-0 bottom-0 z-0 max-h-[130px] max-w-[130px] md:!max-h-[130px] md:!max-w-[130px] size-24'></img>
+                        <img src={bus} className='opacity-60 mx-auto self-center justify-center mt-5 max-h-[130px] max-w-[130px] md:!max-h-[130px] md:!max-w-[130px] size-24'></img>
                     </div>
                 </div>
             </div>
@@ -73,7 +111,7 @@ export default function MidSection(){
                     <div className='pb-14 md:pb-0 md:pr-26'>
                         <h5 className='font-semibold mt-0 text-lg md:text-2xl mb-2 font-montserrat'>Towing</h5>
                         <span className='inline-block mt-0 text-base leading-6 font-normal font-montserrat mb-0 text-secondary max-md:!text-sm'>Instant Requests, Timeless Rides</span>
-                        <img src={tow} className='absolute opacity-60 top-6 right-0 bottom-0 max-h-[130px] max-w-[130px] md:!max-h-[130px] md:!max-w-[130px] size-26'></img>
+                        <img src={tow} className='opacity-60 mx-auto self-center justify-center bottom-0 max-h-[130px] max-w-[130px] md:!max-h-[130px] md:!max-w-[130px] size-26'></img>
                     </div>
                 </div>
             </div>
@@ -83,6 +121,9 @@ export default function MidSection(){
         
         </section>
         </IsVisible>
+
+
+
 
 <IsVisible>
         <div className='md:items-center md:text-center'><h1 className='md:text-5xl text-3xl md:mb-5 mr-36 mb-10 md:mr-12 text-center font-montserrat font-bold text-slate-800'>Download our apps</h1></div>
