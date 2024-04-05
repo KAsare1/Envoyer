@@ -30,14 +30,14 @@ export default function Header() {
                                     </div>
                                 </div>                                 
                             </li>
-                            <li>
+                            {/* <li>
                             <select className="border border-opacity-20 rounded text-center border-neutral-700 block py-2 px-3 ml-20 font-montserrat">
                                 <option value='select your category' className="text-center py-2 px-3 font-montserrat">
                                     English
                                 </option>
                                 <option value="volvo" className="text-center py-2 px-3 font-montserrat">French</option>
                             </select>
-                            </li>
+                            </li> */}
                         </ul>
                         
                     </div>
