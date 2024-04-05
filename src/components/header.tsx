@@ -21,7 +21,7 @@ export default function Header() {
                             {/* <li><a href="#" className="block py-2 px-3 font-montserrat">Make New Request</a></li> */}
                             <li className="relative">
                                 <div className="dropdown">
-                                    <button className="dropbtn block py-2 px-3 font-medium my-auto">Support 
+                                    <button className="dropbtn block py-2 px-3 font-montserrat font-normal my-auto">Support 
                                         <i className="fa fa-caret-down"></i>
                                         </button>
                                         <div className="dropdown-content rounded-md">
