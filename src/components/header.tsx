@@ -64,8 +64,8 @@ export default function Header() {
                     <div className="absolute inset-0 md:w-full h-96 w-[320px] md:h-full bg-gradient-to-l from-transparent to-black opacity-50"></div>
                     {/* Text */}
                     <div className='absolute md:w-2/4 md:top-20 md:bottom-1/4 md:flex md:flex-col md:mt-12'>
-                        <h2 className="text-white md:text-center text-2xl md:text-5xl md:ml-20 font-montserrat">Connect Shippers and Carriers Seamlessly</h2>
-                        <h2 className='text-white text-center text-3xl md:text-5xl font-montserrat md:ml-20'>with us</h2>
+                        <h2 className="text-white md:text-center mt-20 font-medium text-2xl md:text-5xl md:ml-20 font-montserrat">Connect Shippers and Carriers Seamlessly</h2>
+                        <h2 className='text-white text-center text-3xl md:text-5xl font-montserrat md:ml-20 font-medium'>with us</h2>
                     </div>
                 </div>
             </div>
