@@ -3,7 +3,7 @@ import tow from '../../assets/tow-truck-icon.png'
 import bus from '../../assets/bus-icon.png'
 import truck from '../../assets/truck-icon.png'
 import bustwo from '../../assets/Bus.jpg'
-import freight from '../../assets/freight-forward.jpg'
+import freight from '../../assets/cargotruck.jpg'
 import towing from '../../assets/towing.jpg'
 import IsVisible from '../../components/fade_intoview'
 
