@@ -5,7 +5,7 @@ export default function Footer(){
         
 
 <footer className="bg-[#8E2C2C]">
-    <div className="mb:mx-auto mb:w-full max-w-screen-xl h-full">
+    <div className="mb:w-screen h-full">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
             <h2 className="mb-6 text-sm font-semibold uppercase text-white">Company</h2>
@@ -73,8 +73,8 @@ export default function Footer(){
             </ul>
         </div>
     </div>
-    <div className="px-4 py-6 bg-[#8E2C2C] md:flex md:items-center md:justify-between">
-        <span className="text-sm text-white dark:text-gray-300 sm:text-center">© 2024 <a href="https://flowbite.com/">CloudSoft Technologies™</a>. All Rights Reserved.
+    <div className="px-4 py-6 bg-[#8E2C2C] md:flex md:items-center md:justify-center">
+        <span className="text-sm text-white dark:text-gray-300 mx-10 sm:text-center">© 2024 <a href="https://flowbite.com/">CloudSoft Technologies™</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a href="#" className="text-white hover:text-gray-900 dark:hover:text-white">

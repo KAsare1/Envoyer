@@ -89,7 +89,11 @@ export default function MidSection(){
         <IsVisible>
         <section className='px-16 justify-center'> 
         <div className='my-32 justify-center items-center'>
-        <div className='items-center'><h1 className='md:text-5xl text-4xl md:text-center mb-5 font-montserrat font-bold text-slate-800 text-center'>Our Services</h1></div>
+        <div className='items-center'>
+            <h1 className='md:text-5xl text-4xl md:text-center mb-5 font-montserrat font-bold text-slate-800 text-center'>Our Services</h1>
+            <h1 className='md:text-1xl text-1xl md:text-center mb-10 font-montserrat font-semibold text-slate-800 text-center'>Products and features vary by country. Some features listed here may not be available in your app.</h1>
+        </div>
+        
         <div className='grid gap-2 md:gap-4 grid-cols-1 md:grid-cols-3 md:mx-12 mr-24'>
             <div role='button' className='bg-[#D9D9D9] overflow-hidden relative p-4 md:p-6 text-left rounded md:rounded-lg bg-neutral-secondary min-h-[180px] duration-200 hover:scale-[1.02] select-none z-50 w-full h-full inline-block cursor-pointer active:scale-975 active:ease-in-out active:duration-100'>
                 <div className='relative z-10 w-full h-full'>
