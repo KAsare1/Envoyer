@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <header>
-            <nav className="absolute bg-white opacity-96 z-10 border-gray-200 md:h-16 md:w-screen">
+            <nav className="absolute bg-white opacity-96 z-10 border-gray-200 md:h-16 w-full">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     {/* Navigation Links */}
                     <div className="">
