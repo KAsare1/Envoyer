@@ -7,7 +7,7 @@ export default function Footer(){
 
         
 
-<footer className="bg-[#8E2C2C] m-4">
+<footer className="bg-[#8E2C2C]">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-gray-100 sm:text-center dark:text-gray-100">© 2024 <a href="#" className="hover:underline">Cloudsoft Technologies</a>. All Rights Reserved.
     </span>
