@@ -1,21 +1,24 @@
-import apple from '../../assets/apple-logo.png'
-import facebook from '../../assets/facebook.png'
+// import apple from '../../assets/apple-logo.png'
+// import facebook from '../../assets/facebook.png'
 
 export default function Login(){
     return(
         <section>
             <div className="flex flex-col items-center justify-center px-6 mx-auto md:h-screen lg:py-0">
-                <h1 className="font-bold text-7xl mb-12 font-montserrat">Sign In</h1>
+                <h1 className="font-bold text-5xl mb-6 font-montserrat">Welcome back.</h1>
 
-                <div className="flex flex-col">
-                    <label className="text-xl mb-2 font-montserrat">Enter your phone number or email</label>
-                    <input placeholder ='Enter phone number or email' className="border border-opacity-20 rounded text-center border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
-                    <input placeholder ='Enter password' className="mt-4 border rounded text-center border-opacity-20 border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
-                    <button className="bg-[#8E2C2C] rounded my-4 py-2 text-white font-montserrat">Continue</button>
+                <div className="flex flex-col gap-y-4 w-3/12">
+                    <label className="text-lg mb-2 text-center font-semibold font-montserrat">New to Envoyer? <a className="text-[#8E2C2C]">Sign Up</a> </label>
+                    <input placeholder ='Login as a' className="border rounded text-center border-opacity-20 border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
+                    <input placeholder ='Enter phone number or email' className="border border-opacity-20 rounded text-center border-neutral-700 block py-2 font-montserrat"></input>
+                    <input placeholder ='Enter password' className="border rounded text-center border-opacity-20 border-neutral-700 block py-2 px-3 font-montserrat"></input>
+                    <a className="font-montserrat font-bold text-sm text-center" href='passwordreset'>Forgot password?</a>
+                    <button className="bg-[#8E2C2C] rounded-full py-2 text-white font-montserrat">Continue</button>
+                    <a className="font-montserrat text-sm text-center" href='passwordreset'>By using Envoyer, you agree to our Privacy Policy, and Terms & Agreement.</a>
                 </div>
-                <a className="font-montserrat text-sm mb-3" href='passwordreset'>Forgot password?</a>
 
-                <p className="font-montserrat text-sm">_____________________OR_____________________</p>
+
+                {/* <p className="font-montserrat text-sm">_____________________OR_____________________</p>
 
                 <div className="flex flex-col">
                     <button className="bg-[#D9D9D9] rounded mb-1 mt-4 py-2 px-20 text-black font-montserrat flex"><svg className="h-5 w-5 mr-2" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +36,7 @@ export default function Login(){
               </svg>Continue with Google</button>
                     <button className="bg-[#D9D9D9] rounded my-1 py-2 text-black font-montserrat flex text-center"><img src={apple} className="h-5 w-5 ml-20 mr-2"></img>Continue with Apple</button>
                     <button className="bg-[#D9D9D9] rounded my-1 py-2 text-black font-montserrat flex text-center"><img src={facebook} className="h-5 w-5 ml-20 mr-2"></img>Continue with Facebook</button>
-                </div>
+                </div> */}
             </div>
         </section>
     )
