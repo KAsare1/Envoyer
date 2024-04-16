@@ -27,7 +27,7 @@ export default function Login(){
                     </select>
                   
                     <input placeholder ='Enter phone number or email' className="border border-opacity-20 rounded text-center border-neutral-700 block py-3 font-montserrat"></input>
-                    <input placeholder ='Enter password' className="border rounded text-center border-opacity-20 border-neutral-700 block py-3 px-3 font-montserrat"></input>
+                    <input placeholder ='Enter password' type="password" className="border rounded text-center border-opacity-20 border-neutral-700 block py-3 px-3 font-montserrat"></input>
                     <a className="font-montserrat font-bold text-sm text-center text-[#8E2C2C]" href='passwordreset'>Forgot password?</a>
                     <button className="bg-[#8E2C2C] rounded-full py-2 text-white font-montserrat">Continue</button>
                     <a className="font-montserrat text-sm text-center" href='passwordreset'>By using Envoyer, you agree to our Privacy Policy, and Terms & Agreement.</a>

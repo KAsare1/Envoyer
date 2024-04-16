@@ -136,16 +136,39 @@ export default function CustomerRegistration() {
                                 </div>
 
                                 <div className="flex flex-col gap-4">
+
+                                    <select className="border border-opacity-20 rounded-lg text-center border-neutral-700 block py-3 px-3 mr-2 font-montserrat"> 
+                                    <option value="">Choose your city</option>
+                                    <option value="79">Aboso</option>
+                                    <option value="67">Aburi</option>
+                                    <option value="1">Accra</option>
+                                    <option value="37">Adenta East</option>
+                                    <option value="25">Aflao</option>
+                                    <option value="44">Agogo</option>
+                                    <option value="26">Agona Swedru</option>
+                                    <option value="31">Akim Oda</option>
+                                    <option value="78">Akim Swedru</option>
+                                    <option value="73">Akropong</option>
+                                    <option value="59">Akwatia</option>
+                                    <option value="45">Anloga</option>
+                                    <option value="72">Anomabu</option>
+                                    <option value="56">Apam</option>
+                                    <option value="41">Asamankese</option>
+                                    <option value="5">Ashaiman</option>
+                                    <option value="55">Axim</option>
+                                    <option value="82">Banda Ahenkro</option><option value="24">Bawku</option><option value="69">Bechem</option><option value="51">Begoro</option><option value="80">Bekwai</option><option value="29">Berekum</option><option value="63">Bibiani</option><option value="27">Bolgatanga</option><option value="7">Cape Coast</option><option value="18">Dome</option><option value="81">Drobo</option><option value="70">Duayaw Nkwanta</option><option value="50">Dunkwa-on-Offin</option><option value="47">Effiakuma</option><option value="22">Ejura</option><option value="49">Elmina</option><option value="65">Foso</option><option value="20">Gbawe</option><option value="15">Ho</option><option value="33">Hohoe</option><option value="71">Kade</option><option value="61">Keta</option><option value="74">Kete-Krachi</option><option value="75">Kibi</option><option value="36">Kintampo</option><option value="53">Kintampo</option><option value="12">Koforidua</option><option value="40">Konongo</option><option value="76">Kpandae</option><option value="52">Kpandu</option><option value="2">Kumasi</option><option value="17">Lashibi</option><option value="11">Madina</option><option value="39">Mampong</option><option value="77">Mpraeso</option><option value="68">Mumford</option><option value="54">Navrongo</option><option value="30">Nkawkaw</option><option value="38">Nsawam</option><option value="16">Nungua</option><option value="62">Nyakrom</option><option value="66">Nyankpala</option><option value="8">Obuasi</option><option value="21">Oduponkpehe</option><option value="83">Other</option><option value="46">Prestea</option><option value="57">Salaga</option><option value="58">Saltpond</option><option value="43">Savelugu</option><option value="4">Sekondi-Takoradi</option><option value="60">Shama</option><option value="64">Somanya</option><option value="35">Suhum</option><option value="6">Sunyani</option><option value="28">Tafo</option><option value="23">Taifa</option><option value="3">Tamale</option><option value="48">Tarkwa</option><option value="14">Techiman</option><option value="10">Tema</option><option value="19">Tema New Town</option><option value="9">Teshie</option><option value="13">Wa</option><option value="42">Wenchi</option><option value="32">Winneba</option><option value="34">Yendi</option><option value="83">Other</option>
+                                    
+                                    </select>
                                         
-                                        <input placeholder ='Choose your City' className="border border-opacity-20 rounded-lg text-center border-neutral-700 block py-3 px-3 mr-2 font-montserrat"></input>
+                                    
                                         
                                         
                                 </div>
 
                                 <div className="flex flex-col gap-4">
                                     
-                                        <input placeholder ='Password' className="border border-opacity-20 rounded-lg text-center border-neutral-700 block py-3 px-3 mr-2 font-montserrat"></input>
-                                        <input placeholder ='Confirm password' className="border rounded-lg text-center border-opacity-20 border-neutral-700 block py-3 px-3 mr-2 font-montserrat"></input>
+                                        <input placeholder ='Password' type="password" className="border border-opacity-20 rounded-lg text-center border-neutral-700 block py-3 px-3 mr-2 font-montserrat"></input>
+                                        <input placeholder ='Confirm password' type="password" className="border rounded-lg text-center border-opacity-20 border-neutral-700 block py-3 px-3 mr-2 font-montserrat"></input>
                                         
                                 </div>
                                 </div>
