@@ -1,18 +1,34 @@
 // import apple from '../../assets/apple-logo.png'
 // import facebook from '../../assets/facebook.png'
 
+import { Link } from "react-router-dom";
+import Footer from "../../components/footer";
+
 export default function Login(){
     return(
+      <>
+      <header className="flex mt-4 mr-72 justify-end">
+      <Link to={'signup'}><a href="signup" className="py-2 px-3 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded-full font-montserrat">Sign Up</a></Link>
+      </header>
+
         <section>
             <div className="flex flex-col items-center justify-center px-6 mx-auto md:h-screen lg:py-0">
                 <h1 className="font-bold text-5xl mb-6 font-montserrat">Welcome back.</h1>
 
                 <div className="flex flex-col gap-y-4 w-3/12">
                     <label className="text-lg mb-2 text-center font-semibold font-montserrat">New to Envoyer? <a className="text-[#8E2C2C]">Sign Up</a> </label>
-                    <input placeholder ='Login as a' className="border rounded text-center border-opacity-20 border-neutral-700 block py-2 px-3 mr-2 font-montserrat"></input>
-                    <input placeholder ='Enter phone number or email' className="border border-opacity-20 rounded text-center border-neutral-700 block py-2 font-montserrat"></input>
-                    <input placeholder ='Enter password' className="border rounded text-center border-opacity-20 border-neutral-700 block py-2 px-3 font-montserrat"></input>
-                    <a className="font-montserrat font-bold text-sm text-center" href='passwordreset'>Forgot password?</a>
+                    <select className="border rounded text-center border-opacity-20 border-neutral-700 block py-3 px-3 mr-2 font-montserrat">
+                      <option value='Login as a/an'>Login as a/an</option>
+                      <option value='Individual'>Individual</option>
+                      <option value='Business'>Businessn</option>
+                      <option value='Driver/Rider'>Driver/Rider</option>
+                      <option value='Freight Forwarder'>Freight Forwarder</option>
+                      <option value='Clearing agent'>Clearing agent</option>
+                    </select>
+                  
+                    <input placeholder ='Enter phone number or email' className="border border-opacity-20 rounded text-center border-neutral-700 block py-3 font-montserrat"></input>
+                    <input placeholder ='Enter password' className="border rounded text-center border-opacity-20 border-neutral-700 block py-3 px-3 font-montserrat"></input>
+                    <a className="font-montserrat font-bold text-sm text-center text-[#8E2C2C]" href='passwordreset'>Forgot password?</a>
                     <button className="bg-[#8E2C2C] rounded-full py-2 text-white font-montserrat">Continue</button>
                     <a className="font-montserrat text-sm text-center" href='passwordreset'>By using Envoyer, you agree to our Privacy Policy, and Terms & Agreement.</a>
                 </div>
@@ -39,5 +55,7 @@ export default function Login(){
                 </div> */}
             </div>
         </section>
+        <Footer/>
+        </>
     )
 }
