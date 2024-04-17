@@ -8,7 +8,7 @@ export default function Login(){
     return(
       <>
       <header className="flex mt-4 mr-72 justify-end">
-      <Link to={'signup'}><a href="signup" className="py-2 px-3 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded-full font-montserrat">Sign Up</a></Link>
+      <a href="signup" className="py-2 px-3 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded-full font-montserrat">Sign Up</a>
       </header>
 
         <section>
