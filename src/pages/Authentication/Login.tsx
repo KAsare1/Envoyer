@@ -1,7 +1,7 @@
 // import apple from '../../assets/apple-logo.png'
 // import facebook from '../../assets/facebook.png'
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Footer from "../../components/footer";
 
 export default function Login(){
