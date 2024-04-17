@@ -16,6 +16,7 @@ function App() {
       {/* <Route path='signup' element={<Signup/>}/> */}
       <Route path='signup' element={<CustomerRegisteration/>}/>
       <Route path='otp-verification' element={<Otp/>}/>
+      <Route path='otp-verification/signup' element={<CustomerRegisteration/>}/>
       </Routes>
     </BrowserRouter>
   )
