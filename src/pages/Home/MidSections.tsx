@@ -57,7 +57,7 @@ export default function MidSection(){
         <div className='relative mb-5 mt-96 pt-16 md:flex md:my-32 md:ml-16 md:items-center'>
             <img src={bustwo} className='object-fill md:h-5/6 md:w-1/2 h-56 md:ml-0 ml-9 w-[250px] md:rounded-[48px]'></img>
             <div className='md:mx-32 mx-3'>
-            <p className='md:text-5xl md:h-48 font-bold font-montserrat md:mt-0 mt-10 text-slate-800'>Sit in comfort to your destination</p>
+            <p className='md:text-5xl md:h-48 font-bold font-montserrat md:mt-0 mt-10 text-slate-800'>Sit in comfort to your destination.</p>
             <button className="block py-2 px-7 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded-xl md:mx-32 font-montserrat">Hire a bus</button>
             </div>
         </div>
