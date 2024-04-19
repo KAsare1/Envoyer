@@ -77,7 +77,7 @@ export default function MidSection(){
         <div className='md:flex md:ml-16 items-center'>
             <img src={towing} className='object-fill md:h-5/6 md:w-1/2 h-56 md:ml-0 ml-9 w-[250px] md:rounded-[48px]'></img>
             <div className='md:mx-32 mx-3'>
-            <p className='md:text-5xl md:h-48 font-bold font-montserrat md:mt-0 mt-10 text-slate-800'>Reliable Towing, Rapid Response</p>
+            <p className='md:text-5xl md:h-48 font-bold font-montserrat md:mt-0 mt-10 text-slate-800'>Reliable Towing, Rapid Response.</p>
             <button className="block py-2 px-3 bg-transparent font-semibold text-black hover:text-white hover:bg-black border border-black hover:border-transparent rounded-xl md:mx-32 font-montserrat">Order Your Ride</button>
             </div>
         </div>
